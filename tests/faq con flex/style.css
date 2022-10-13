@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.faqtext{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 2%;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.megaqcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.qcontainer{
+    outline: solid rgb(255, 255, 255);
+    color: white;
+    width: 60%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5%;
+    margin: 10px;
+}
+
+.qcontainer .num{
+A    width: 4%;
+    color: black;
+    background-color: white;
+    padding: 5px;
+    border-radius: 2px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.q{
+    width: 50%;
+/*     outline: solid green;
+ */}
+
+.megaacontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.acontainer{
+    outline: solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5%;
+    margin: 10px;
+}
+
+.acontainer .num{
+/*     outline: solid red;
+ */    width: 4%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+    border-radius: 2px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.a{
+    width: 50%;
+/*     outline: solid green;
+ */}
